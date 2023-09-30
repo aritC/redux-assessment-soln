@@ -1,8 +1,11 @@
 //Assessment #4
 
-//1. Create a class component and show all the life cycle hooks
+/*
+1. Create a class component and show all the life cycle hooks
+ - LifeCycleHooks
+*/
 
-//2. Make a state change, the state should be duplicate and then stop it to call render method to improve efficiency.
+//2.
 
 /*3. Create a product component using functional component and hooks (try using use state to read default values from reducer)
     - Create a form to allow user to submit Product Details - name, price, desc, rating
