@@ -4,10 +4,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LifeCycleHooksDemo from "./components/LifeCycleHooksDemo/LifeCycleHooks";
 import OptimizedStateChange from "./components/OptimizedStateChange/OptimizedStateChange";
 import NotFound from "./components/404/404";
+import Product from "./components/Product/Product";
 
 import "./app.css";
 
-const App = (props) => {
+const App = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between mb-5">
@@ -51,7 +52,7 @@ const App = (props) => {
           <Routes>
             <Route path="/q1" element={<LifeCycleHooksDemo />} />
             <Route path="/q2" element={<OptimizedStateChange />} />
-            <Route path="/q1" element={<LifeCycleHooksDemo />} />
+            <Route path="/q3" element={<Product />} />
             <Route path="/q1" element={<LifeCycleHooksDemo />} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
